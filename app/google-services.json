@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "9114293502",
+    "firebase_url": "https://check1-46bff.firebaseio.com",
+    "project_id": "check1-46bff",
+    "storage_bucket": "check1-46bff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9114293502:android:ade11305cf1ec3a9",
+        "android_client_info": {
+          "package_name": "com.example.android.pjquize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9114293502-r4gc95ptpsiejhre3g4dkb43kctlm1ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.pjquize",
+            "certificate_hash": "451CB4F82EFE8AAD835314E34E89BDA57711EB9A"
+          }
+        },
+        {
+          "client_id": "9114293502-2cuafeko8cktu3qgd24ph1cu1dspujqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF76O8-irmFOadDBhrK_az2mTjuvnt_Og"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9114293502-2cuafeko8cktu3qgd24ph1cu1dspujqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

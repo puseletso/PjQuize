@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.android.pjquize.resultsPage">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Results Score out of 10"
+        style="@style/editText_style_color"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="100dp"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/totalCorrect_textview"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correct answers :"
+            style="@style/editText_style_color"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/totalIncorrect_textview"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="incorrect answers :"
+            style="@style/editText_style_color"
+            android:textSize="20sp"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+            android:id="@+id/backtocategories_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="go back to categories"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            style ="@style/squar_button"
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

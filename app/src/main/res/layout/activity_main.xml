@@ -1,0 +1,148 @@
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/text"
+
+    >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <TextView
+        android:id="@+id/category_label_textView"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category:"
+        android:textSize="20sp"
+        style="@style/editText_style_color"
+        />
+
+    <ImageView
+        android:id="@+id/unionbuilding_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        />
+
+
+
+    <TextView
+        android:id="@+id/question_textView"
+
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:textSize="20sp"
+        style="@style/editText_style_color"
+        />
+
+    <EditText
+        android:id="@+id/answer_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="answer"
+        android:inputType="text"
+        android:textSize="20sp"
+        style="@style/editText_style_color"
+        />
+
+
+
+    <Button
+        android:id="@+id/answer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CheckAnswer"
+        android:textSize="20sp"
+        style ="@style/squar_button"
+
+        />
+
+
+
+
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"></View>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation ="horizontal">
+
+
+
+
+
+
+        <Button
+
+            android:id="@+id/correct_button"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="Correct"
+            android:layout_weight="1"
+            android:ems="8"
+            android:textSize="20sp"
+            style ="@style/squar_button"
+
+  />
+
+
+        <Button
+
+            android:gravity="center"
+            android:id="@+id/incorrect__button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:text="Incorrect"
+            android:ems="8"
+            android:textSize="20sp"
+            style ="@style/squar_button"
+         />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
